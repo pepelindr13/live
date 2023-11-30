@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box {
+  background-color: #ebeefe;
+  padding: 0 120px 200px 120px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 100px;
+}
+
+.nav-branding img {
+  height: 28px;
+}
+
+.mid-nav {
+  display: flex;
+  align-items: center;
+}
+
+.mid-nav a,.nav-menu a {
+  color: #0e0a47;
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+.nav-menu a {
+  text-decoration: non;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav-btn {
+  background-color: #0e0a47;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.top-container {
+  display: flex;
+
+}
+
+.here {
+  font-size: 14px;
+  width: max-content;
+  background-color: #d0d8fc;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #1c1a3cad;
+}
+
+.left-top {
+  width: 100%;
+}
+
+.left-top h1 {
+  font-size: 55px;
+  font-weight: 200;
+  color: #0e0a47;
+}
+
+.left-top span {
+  font-weight: 600;
+}
+
+.right-top {
+  width: 700px;
+}
+
+.right-top img {
+  /* transform: translateX(300px); */
+}
+
+.req-btn {
+  background-color: white;
+  color: #0e0a47;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+
+.start-btn {
+  background-color: #0e0a47;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+
+.middle-container {
+  text-align: center;
+  color: #0e0a47;
+}
